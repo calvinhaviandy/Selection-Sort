@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-13T13:09:03.142Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.76" etag="3J8bQlkYh-VLjRPT9A9t" version="20.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-13T13:11:38.940Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.76" etag="GRG96RAcF2TzND5je7Ml" version="20.8.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1500" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="724" dy="401" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -55,8 +55,26 @@
         <mxCell id="GvJyI9alPm6sD9IZf6iM-16" value="&lt;div&gt;for (int i = 0; i &amp;lt; jumlah; i++){&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; System.out.print(&quot; &quot; + bilangan[i] + &quot;, &quot;);&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="156.88" y="700" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="GvJyI9alPm6sD9IZf6iM-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GvJyI9alPm6sD9IZf6iM-18" target="GvJyI9alPm6sD9IZf6iM-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GvJyI9alPm6sD9IZf6iM-18" value="&lt;div&gt;System.out.println(&quot; Hasil Sorting: &quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; for(int i =0; i &amp;lt; bilangan.length; i++){&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; System.out.print(&quot; &quot; +bilangan[i] + &quot; &quot;)&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="116.88" y="820" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GvJyI9alPm6sD9IZf6iM-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GvJyI9alPm6sD9IZf6iM-20" target="GvJyI9alPm6sD9IZf6iM-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GvJyI9alPm6sD9IZf6iM-20" value="public static void selectionSort(int[] bilangan)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="354" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GvJyI9alPm6sD9IZf6iM-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GvJyI9alPm6sD9IZf6iM-22" target="GvJyI9alPm6sD9IZf6iM-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GvJyI9alPm6sD9IZf6iM-22" value="&lt;div&gt;for (int i = 0; i &amp;lt; bilangan.length - 1 ; i++){&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;int index =i;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="520" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GvJyI9alPm6sD9IZf6iM-24" value="for ( int j = i + 1; j&amp;lt; bilangan.length; j++" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="670" y="830" width="130" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
